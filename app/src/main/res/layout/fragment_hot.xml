@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".HotFragment">
+
+        <ImageView
+            android:id="@+id/hot_img"
+            android:layout_width="39dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/ic_baseline_whatshot_24" />
+
+        <TextView
+            android:id="@+id/header_hot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/boogaloo"
+            android:text="Hot Comic"
+            android:textColor="#000000"
+            android:textSize="30sp" />
+    </FrameLayout>
+</layout>

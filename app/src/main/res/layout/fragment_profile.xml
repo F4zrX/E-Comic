@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/prof"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileFragment">
+
+    <ImageButton
+        android:id="@+id/sett"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="360dp"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/ic_baseline_settings_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="375dp"
+        android:layout_height="238dp"
+        android:src="@drawable/img"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="63dp" />
+
+    <ImageView
+        android:layout_width="71dp"
+        android:layout_height="58dp"
+        android:src="@drawable/ic_baseline_account_circle_24"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="119dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/boogaloo"
+        android:text="Username"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="136dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/boogaloo"
+        android:text="Subscriton Status"
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="301dp"
+        tools:layout_editor_absoluteY="136dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/boogaloo"
+        android:text="30 D"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="315dp"
+        tools:layout_editor_absoluteY="148dp" />
+
+    <ImageView
+        android:layout_width="46dp"
+        android:layout_height="30dp"
+        android:src="@drawable/coin"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="200dp" />
+
+    <TextView
+        android:layout_width="28dp"
+        android:layout_height="22dp"
+        android:fontFamily="@font/boogaloo"
+        android:text="Point"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="208dp" />
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="26dp"
+        android:src="@drawable/ic_baseline_discount_24"
+        tools:layout_editor_absoluteX="245dp"
+        tools:layout_editor_absoluteY="204dp" />
+
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="22dp"
+        android:fontFamily="@font/boogaloo"
+        android:text="Voucher"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="273dp"
+        tools:layout_editor_absoluteY="208dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/boogaloo"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="273dp"
+        tools:layout_editor_absoluteY="230dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/boogaloo"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="230dp" />
+
+    <ImageButton
+        style="@style/Widget.AppCompat.ImageButton"
+        android:layout_width="374dp"
+        android:layout_height="91dp"
+        android:padding="@dimen/fab_margin"
+        android:scaleType="fitStart"
+        android:src="@drawable/ic_baseline_card_membership_24"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="301dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/boogaloo"
+        android:text="Subscription"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="326dp" />
+
+    <ImageView
+        android:layout_width="375dp"
+        android:layout_height="318dp"
+        android:scaleY="1.6"
+        android:src="@drawable/img"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="392dp" />
+
+    <ImageView
+        android:layout_width="53dp"
+        android:layout_height="43dp"
+        android:src="@drawable/ic_baseline_payment_24"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="433dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/boogaloo"
+        android:text="Paymant Status"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="443dp" />
+
+    <ImageView
+        android:layout_width="53dp"
+        android:layout_height="43dp"
+        android:src="@drawable/ic_baseline_bookmark_24"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="476dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/boogaloo"
+        android:text="Bookmark"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="487dp" />
+
+    <ImageView
+        android:layout_width="53dp"
+        android:layout_height="43dp"
+        android:src="@drawable/ic_baseline_shopping_cart_24"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="519dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/boogaloo"
+        android:text="Chart"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="529dp" />
+
+    <ImageView
+        android:layout_width="53dp"
+        android:layout_height="43dp"
+        android:src="@drawable/ic_baseline_error_24"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="562dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/boogaloo"
+        android:text="About Us"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="571dp" />
+
+    <ImageView
+        android:layout_width="53dp"
+        android:layout_height="43dp"
+        android:src="@drawable/ic_baseline_logout_24"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="605dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/boogaloo"
+        android:text="Log Out"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="614dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

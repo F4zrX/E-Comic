@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettFragment">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="235dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <ImageButton
+                android:id="@+id/goprofile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="goprofile"
+                android:src="@drawable/ic_baseline_arrow_back_24"
+ />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="58dp"
+                android:layout_height="31dp"
+                android:fontFamily="@font/boogaloo"
+                android:text="setting"
+                android:textColor="@color/black"
+                android:textSize="23sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="48dp"
+                tools:layout_editor_absoluteY="12dp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/boogaloo"
+                android:text="Account"
+                android:textColor="@color/black"
+                android:textSize="27sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="168dp"
+                tools:layout_editor_absoluteY="52dp" />
+
+            <ImageView
+                android:layout_width="38dp"
+                android:layout_height="41dp"
+                android:src="@drawable/ic_baseline_account_circle_24"
+                tools:layout_editor_absoluteX="33dp"
+                tools:layout_editor_absoluteY="91dp" />
+
+            <TextView
+                android:layout_width="71dp"
+                android:layout_height="32dp"
+                android:fontFamily="@font/boogaloo"
+                android:text="Username"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="82dp"
+                tools:layout_editor_absoluteY="100dp" />
+
+            <TextView
+                android:layout_width="101dp"
+                android:layout_height="26dp"
+                android:fontFamily="@font/boogaloo"
+                android:text="Content Creator"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="33dp"
+                tools:layout_editor_absoluteY="144dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/boogaloo"
+                android:text="Options"
+                android:textColor="@color/black"
+                android:textSize="27sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="170dp"
+                tools:layout_editor_absoluteY="177dp" />
+
+            <TextView
+                android:layout_width="116dp"
+                android:layout_height="31dp"
+                android:fontFamily="@font/boogaloo"
+                android:text="Content Language"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="33dp"
+                tools:layout_editor_absoluteY="215dp" />
+
+            <TextView
+                android:layout_width="116dp"
+                android:layout_height="31dp"
+                android:fontFamily="@font/boogaloo"
+                android:text="Image Resolution"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="33dp"
+                tools:layout_editor_absoluteY="246dp" />
+
+            <TextView
+                android:layout_width="116dp"
+                android:layout_height="31dp"
+                android:fontFamily="@font/boogaloo"
+                android:text="Clear Cache"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="33dp"
+                tools:layout_editor_absoluteY="277dp" />
+
+            <TextView
+                android:layout_width="116dp"
+                android:layout_height="31dp"
+                android:fontFamily="@font/boogaloo"
+                android:text="Manage Device"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="33dp"
+                tools:layout_editor_absoluteY="308dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/boogaloo"
+                android:text="Notifications"
+                android:textColor="@color/black"
+                android:textSize="27sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="146dp"
+                tools:layout_editor_absoluteY="350dp" />
+
+            <TextView
+                android:layout_width="116dp"
+                android:layout_height="31dp"
+                android:fontFamily="@font/boogaloo"
+                android:text="All Notifications"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="33dp"
+                tools:layout_editor_absoluteY="392dp" />
+
+            <TextView
+                android:layout_width="133dp"
+                android:layout_height="32dp"
+                android:fontFamily="@font/boogaloo"
+                android:text="Service Notifications"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="33dp"
+                tools:layout_editor_absoluteY="422dp" />
+
+            <TextView
+                android:layout_width="133dp"
+                android:layout_height="32dp"
+                android:fontFamily="@font/boogaloo"
+                android:text="Favorite Update"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="33dp"
+                tools:layout_editor_absoluteY="454dp" />
+
+            <TextView
+                android:layout_width="133dp"
+                android:layout_height="32dp"
+                android:fontFamily="@font/boogaloo"
+                android:text="Comments"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="33dp"
+                tools:layout_editor_absoluteY="486dp" />
+
+            <TextView
+                android:layout_width="133dp"
+                android:layout_height="32dp"
+                android:fontFamily="@font/boogaloo"
+                android:text="Like"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="33dp"
+                tools:layout_editor_absoluteY="518dp" />
+
+            <TextView
+                android:layout_width="133dp"
+                android:layout_height="32dp"
+                android:fontFamily="@font/boogaloo"
+                android:text="Suggetions"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="33dp"
+                tools:layout_editor_absoluteY="550dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/boogaloo"
+                android:text="About"
+                android:textColor="@color/black"
+                android:textSize="27sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="178dp"
+                tools:layout_editor_absoluteY="591dp" />
+
+            <TextView
+                android:layout_width="133dp"
+                android:layout_height="32dp"
+                android:fontFamily="@font/boogaloo"
+                android:text="Notice"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="33dp"
+                tools:layout_editor_absoluteY="623dp" />
+
+            <TextView
+                android:layout_width="133dp"
+                android:layout_height="32dp"
+                android:fontFamily="@font/boogaloo"
+                android:text="Help"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="33dp"
+                tools:layout_editor_absoluteY="655dp" />
+
+            <TextView
+                android:layout_width="133dp"
+                android:layout_height="32dp"
+                android:fontFamily="@font/boogaloo"
+                android:text="Terms Of Use"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="33dp"
+                tools:layout_editor_absoluteY="686dp" />
+
+            <TextView
+                android:layout_width="133dp"
+                android:layout_height="32dp"
+                android:fontFamily="@font/boogaloo"
+                android:text="Privacy Policy"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="33dp"
+                tools:layout_editor_absoluteY="719dp" />
+
+            <TextView
+                android:layout_width="133dp"
+                android:layout_height="32dp"
+                android:fontFamily="@font/boogaloo"
+                android:text="App Version"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="33dp"
+                tools:layout_editor_absoluteY="751dp" />
+
+            <TextView
+                android:layout_width="67dp"
+                android:layout_height="28dp"
+                android:fontFamily="@font/boogaloo"
+                android:text="Ver 1.0.0"
+                android:textColor="#686161"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="328dp"
+                tools:layout_editor_absoluteY="750dp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</FrameLayout>
